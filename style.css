@@ -1,0 +1,17 @@
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Fira Sans', sans-serif; 
+}
+.avatar  {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 11px 12px 14px rgba(0,0, 0, 0.15);
+}
+.info p {
+  color: #86898f;
+   
+}
