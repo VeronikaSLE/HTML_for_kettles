@@ -6,12 +6,87 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-family: 'Fira Sans', sans-serif; 
 }
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
 .avatar  {
   width: 200px;
   border-radius: 28px;
   box-shadow: 11px 12px 14px rgba(0,0, 0, 0.15);
 }
+.info {
+  margin-bottom: 20px;
+}
 .info p {
   color: #86898f;
-   
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 5px; */
+  /* word-spacing: 42px; */
+}
+.container  {
+ max-width: 750px;
+ margin: auto;
+}
+
+/* .wish-list {
+  background: green;
+  padding: 15px; 
+  padding: 15px 40px; 
+  padding: 15px 20px 25px 30px;
+  border: 5px solid red;
+  border-bottom-style: groove;
+  border-top-width: 15px;
+  border-right-color: blue;
+  margin: 20px;
+} */
+
+/* .box-model > div {
+  float: left;
+  background: #000;
+  height: 200px;
+  width: 25%;
+  box-sizing: border-box;
+  
+} */
+ 
+.bg-yellow {
+  background: #fff9dc;
+}
+
+.bg-green {
+  background: #edffef;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+ .card h2 {
+  margin-bottom: 10px;
+ }
+ .table {
+  width: 100%;
+ }
+ .table td {
+  padding-bottom: 10px;
+ }
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+.table th{
+  text-align: left;
+  padding-bottom: 10px;
+  
 }
