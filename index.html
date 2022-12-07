@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>gamargoba</title> 
@@ -11,16 +11,21 @@
 
 <body>
   <div class="container">
+
+    <!-- блок с картинкой -->
     <div class="info"> 
-      <img src="фитоняшка.jpeg" alt="this is my photo" class="avatar">
-      <h1>Veronika</h1>
-      <p>The best wife for <strong>Roma</strong></p>
-      <p>I love Roma very much</p>
-      <h4>My wish list</h4>
-        <a href="https://www.apple.com/ge/macbook-air-m2/" target="_blank"> laptop</a> |
-        <a href="https://www.bulgari.com/en-int/jewellery/rings/b-zero1-ring-white-gold-328188" target="_blank"> ring by bulgari</a>
+    <img src="фитоняшка.jpeg" alt="this is my photo" class="avatar">
+      <div class="info-text">
+        <h1>Veronika</h1>
+        <p>The best wife for <strong>Roma</strong></p>
+        <p>I love Roma very much</p>
+        <h4>My wish list</h4>
+          <a href="https://www.apple.com/ge/macbook-air-m2/" target="_blank"> laptop</a> |
+          <a href="https://www.bulgari.com/en-int/jewellery/rings/b-zero1-ring-white-gold-328188" target="_blank"> ring by bulgari</a>
+      </div>
     </div>
 
+    <!-- блок мой любимый парфюм -->
    <div class="card bg-yellow">
      <h2>My favorite perfume</h2>
      <ol>
@@ -29,6 +34,7 @@
      </ol>
    </div>
 
+   <!-- блок цен -->
     <div class="card bg-green">
       <h2>Price</h2>
       <table class="table">
@@ -59,32 +65,44 @@
       </table>
     </div>
 
-    
-      <h2>Where I am</h2>
-      <form action="\">
-        <label for="love">Твой комплимент</label>
-        <input type="text" id="love" placeholder="Вероничка - ягодка клубничка">
-        <br>
-        <label for="miss">Твой твой номер телефона</label>
-        <input type="tel" id="miss" placeholder="Пиши">
-        <br>
-        <label for="text">Твое сообщение</label>
-        <br>
-        <textarea name="" id="text" cols="10">
-        </textarea>
-        <br>
-        <input type="submit" value="Отправить">
-      </form>
-     
-    <div class=" box-model">
-      <div> </div>
-      <div></div>
-      <div></div>
-      <div></div>
+    <!-- блок мои курсы -->
+    <div class="card bg-pink">
+      <h2>My Youtube courses</h2>
+      <ul class="link-list">
+        <li>
+          <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU&ab_channel=%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BB%D0%B5%D0%BD%D0%9C%D0%B8%D0%BD%D0%B8%D0%BD" target="_blank">HTML для Начинающих - Практический Курс</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=SpCUuyZZTp8&t=4515s" target="_blank">CSS для Начинающих - Практический Курс</a>
+        </li>
+      </ul>
     </div>
-    <div style="margin-bottom: 500px;">
 
+    <!-- блок для связи -->
+    <div class="contact">
+      <h2>Where I am</h2>
+      <form>
+        <div class="row">
+          <div class="form-group">
+            <label for="love">Твой комплимент</label>
+            <input type="text" id="love" placeholder="Вероничка - ягодка клубничка">
+          </div>
+          <div class="form-group">
+            <label for="miss">Твой твой номер телефона</label>
+            <input type="tel" id="miss" placeholder="Пиши">
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="text">Твое сообщение</label>
+          <textarea name="description" id="text" cols="10">
+          </textarea>
+        </div>
+
+        <input class="btn" type="submit" value="Отправить">
+      </form>
     </div>
+    <div style="margin-bottom: 50px;"></div>
   </div>
 </body>
 </html> 
